@@ -15,11 +15,11 @@ Presentation for the San Diego JS speaker workshop about how to pick a topic for
 
 ## Develop the Presentation
 
-* Edit your slides from `slides` folder (html or [markdown](https://www.npmjs.com/package/marked))
+* Edit the slides from `slides` folder (html or [markdown](https://www.npmjs.com/package/marked))
 * If you need some assets, you can work in `images`, `css`, `js`, `media` folders and use `includes.txt`
-* Your slideshow is automatically built into `build` folder
-* Your slideshow is hosted and your browser is opened to localhost:9000
-* Any change you make will rebuild and refresh your browser
+* The slideshow is automatically built into `build` folder
+* The slideshow is hosted and the browser is opened to localhost:9000
+* Any change you make will rebuild and refresh the browser
 * Oh, and a printer-friendly `slides.pdf` is automatically generated on any change too
 
 ### Slides structure and format
@@ -44,14 +44,14 @@ slides/
   03-conclusion.md
 ```
 
-The only required directory is `slides`. The other directories are for your custom content.
+The only required directory is `slides`. The other directories are for custom content.
 
 #### Sample slide
 
 ```md
 # Slide's title
 
-Content of your slide
+Content of the slide
 
 note:
 
@@ -73,13 +73,13 @@ You can set per-slide properties like general style, [background](https://github
   * `$transition:zoom$`
   * `$transition-speed:fast$`
 
-## Usage
+## Command Usage
 
 * The `serve` script will open a browser window with the presentation and keep it and a pdf version of the presentation updated as you make changes:
 
   `npm run serve`
 
-* If you don't want a window opened but you want the build to stay current, use:
+* If you just want the build to stay current, use:
 
   `npm run watch`
 
@@ -93,7 +93,7 @@ Under the covers, [prez](https://github.com/lmtm/prez) is used to build and serv
 
   `npm run present -- --such-notes`
 
-#### Configuration File
+### Configuration File
 
 Alternatively, you can set the options in the .prezrc file.
 
@@ -102,7 +102,7 @@ Alternatively, you can set the options in the .prezrc file.
 * `-v`, `--version`: show version and exit
 * `-s <dir>`, `--slides-dir=<dir>`: customize name of the folder containing slides (default = `slides`)
 
-Assets & slides
+#### Assets & slides
 
 * `--skip-reveal`: do not copy reveal.js slides into target directory (useful if you want faster build over existing build)
 * `--skip-index`: do not generate `index.html` in target (will remain untouched if already existing)
@@ -110,13 +110,13 @@ Assets & slides
 * `--keep-hidden`: render slides or chapters starting with a dot `.`
 * `--sub-covers`: auto generate cover slides with the dir name as a h1 for each group of vertical slides
 
-Meta
+#### Meta
 
 * `--title=<title>`: specify the title of your presentation (default = `package.json name` if found or `Prez`)
 * `--author=<author>`: specify the author of your presentation (default = `package.json author` if found)
 * `--description=<description>`: specify the description of your presentation (default = `package.json description` if found)
 
-Theme
+#### Theme
 
 * `--theme=<theme>`: choose [reveal theme](https://github.com/hakimel/reveal.js/tree/master/css/theme) (default = `solarized`)
 * `--highlight-theme=<theme>`: choose [highlight.js theme](https://github.com/isagalaev/highlight.js/tree/master/src/styles) (default = `zenburn`)
@@ -124,20 +124,20 @@ Theme
 * `--print-notes`: enable special print layout with first-class notes
 * `--such-notes`: focus on notes, which will enable a special print layout with notes as first-class content, and more space for them in the notes popup
 
-Live server
+#### Live server
 
 * `--serve[=<port>]`: serve slideshow (you can specify port here or use `--port`)
 * `-p <port>`, `--port=<port>`: modify http server port (default 9000), you can use value `auto` to use a random available port
 * `--no-live-reload`: disable live-reload when serving slideshow
 * `--no-open-browser`: do not open local browser automatically when serving slideshow
 
-Print
+#### Print
 
 * `--print[=<file>]`: print slideshow as pdf (requires `--serve` and phantomjs must be installed)
 * `--print-theme=<theme>`: theme to be used for pdf output (default = no override)
 * `--phantomjs=<path to phantomjs>`: path to phantomjs (default = `phantomjs`)
 
-Misc
+#### Misc
 
 * `--no-update-notifier`: disable version checking
 
