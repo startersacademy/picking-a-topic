@@ -1,0 +1,35 @@
+{
+  "name": "picking-a-topic",
+  "version": "1.0.0",
+  "description": "Presentation for the San Diego JS speaker workshop about how to pick a topic for a talk.",
+  "config": {
+    "source_dir": "./source",
+    "build_dir": "./build",
+    "pdf_path": "./build/slides.pdf"
+  },
+  "scripts": {
+    "init": "prez $npm_package_config_source_dir $npm_package_config_build_dir --init",
+    "present": "prez $npm_package_config_source_dir $npm_package_config_build_dir --serve",
+    "serve": "prez $npm_package_config_source_dir $npm_package_config_build_dir --serve --watch --print $npm_package_config_pdf_path",
+    "watch": "prez $npm_package_config_source_dir $npm_package_config_build_dir --watch",
+    "print": "prez $npm_package_config_source_dir $npm_package_config_build_dir --print $npm_package_config_pdf_path"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/startersacademy/picking-a-topic.git"
+  },
+  "keywords": [
+    "presentation",
+    "meetup"
+  ],
+  "author": "Todd Bashor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/startersacademy/picking-a-topic/issues"
+  },
+  "homepage": "https://github.com/startersacademy/picking-a-topic#readme",
+  "devDependencies": {
+    "prez": "^4.3.0"
+  }
+}

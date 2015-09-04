@@ -1,0 +1,16 @@
+{
+  "slides": "slides",
+  "skipReveal": false,
+  "skipIndex": false,
+  "skipUser": false,
+  "keepHidden": false,
+  "print": false,
+  "printTheme": "simple",
+  "phantomjs": "phantomjs",
+  "suchNotes": false,
+  "theme": "solarized",
+  "highlightTheme": "zenburn",
+  "dynamicTheme": true,
+  "watch": false,
+  "subCovers": false
+}
