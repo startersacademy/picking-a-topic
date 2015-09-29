@@ -29,10 +29,7 @@
     "url": "https://github.com/startersacademy/picking-a-topic/issues"
   },
   "homepage": "https://github.com/startersacademy/picking-a-topic#readme",
-  "devDependencies": {
-    "prez": "^4.3.0"
-  },
   "dependencies": {
-    "reveal-code-focus": "^0.1.0"
+    "prez": "^4.4.0"
   }
 }
