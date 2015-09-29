@@ -1,7 +1,9 @@
+$class:white-background$
+
 <h1 class="left" style="
   height: 90px;
   margin-bottom: 20px;
-  margin-top: 80px;
+  margin-top: 60px;
   padding-left: 200px;">
   PICK
 </h1>
@@ -17,3 +19,11 @@
 <h1 class="left no-margin" style="padding-left: 300px;">
   Benefit
 </h1>
+
+Note:
+Instead, be systematic when choosing what you will talk about. 
+
+PICK a topic at a specific level with a clear benefit.
+
+Over the next few minutes, I'll talk through this process.
+

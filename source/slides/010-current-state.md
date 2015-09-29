@@ -9,4 +9,15 @@ $background:/images/sandiego-js-developers.jpeg$
   <h3 style="padding-bottom: 20px">...a diverse audience</h3>
 </div>
 
+Note:
+
+Picking a topic starts with understanding your audience. 
+
+The San Diego JavaScript community is very diverse.
+
+Age, development experience, formal education, cultural background, job status, front-end/back-end: very little consistency.
+
+
+
+
 

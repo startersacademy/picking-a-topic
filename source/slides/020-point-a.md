@@ -1,4 +1,9 @@
-$background:/images/Man-Confused-ScratchingHead-bw-3000px.jpg$
+$background:/images/scratching-head.jpg$
+
+Note:
+
+Your probably thinking, "Great, that doesn't help."
+
 
 
 
