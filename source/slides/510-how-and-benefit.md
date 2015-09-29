@@ -1,4 +1,5 @@
 $background:images/worksheet.png$
+$class:fit-background$
 
 Note:
 

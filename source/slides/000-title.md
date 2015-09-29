@@ -13,6 +13,11 @@ $background:/images/rabbit.jpg$
   Todd Bashor
 </h4>
 
+<h4 class="right" style="
+  font-size: .5em">
+  @startersacademy
+</h4>
+
 Note:
 
 You're here because you'd like to stand up put on a little educational show for your fellow sandiego.js community members.
