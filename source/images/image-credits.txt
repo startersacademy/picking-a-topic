@@ -1,0 +1,25 @@
+edison-quote: http://commentsmeme.com/wp-content/uploads/2014/03/Failure-Quotes-10.jpg
+
+fingernails-on-board: https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2011/11/4/1320412242264/Fingernails-scratching-a--007.jpg?w=1200&q=85&auto=format&sharp=10&s=5dd824431297c6159f402dbdfc041dd3
+
+lottery-ticket: http://www.aceshowbiz.com/images/still/lottery_ticket01.jpg
+
+mouse-with-helmet: http://4.bp.blogspot.com/-27AqS6yQROU/VJLQcp-yInI/AAAAAAAAIDY/i7ADY2gzZwg/s1600/MiceLearnFromExperience.jpg
+
+rabbit: http://i.huffpost.com/gen/1526054/images/o-RABBIT-HAT-facebook.jpg
+
+scratching-head: https://lh5.googleusercontent.com/-LnxPrMNxkN8/VCGi7FqjFBI/AAAAAAAAB_E/HOQw3a4BwLg/w2048-h1361/Man-Confused-ScratchingHead-bw-3000px.jpg
+
+San Diego JS Meetup
+-------------------
+kevin-ball-presenting
+sandiego-js-developers
+sandiegojs-logo
+
+Starters Academy
+----------------
+pyramid with examples
+pyramid
+pyramid-with-examples
+tsa-logo
+worksheet
