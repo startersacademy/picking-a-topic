@@ -1,4 +1,5 @@
 {
+  "name": "Picking a Topic",
   "slides": "slides",
   "skipReveal": false,
   "skipIndex": false,
@@ -8,8 +9,8 @@
   "printTheme": "simple",
   "phantomjs": "phantomjs",
   "suchNotes": false,
-  "theme": "solarized",
-  "highlightTheme": "zenburn",
+  "theme": "black",
+  "highlightTheme": "github",
   "dynamicTheme": true,
   "watch": false,
   "subCovers": false

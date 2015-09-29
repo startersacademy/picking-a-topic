@@ -10,7 +10,7 @@
   "scripts": {
     "init": "prez $npm_package_config_source_dir $npm_package_config_build_dir --init",
     "present": "prez $npm_package_config_source_dir $npm_package_config_build_dir --serve",
-    "serve": "prez $npm_package_config_source_dir $npm_package_config_build_dir --serve --watch --print $npm_package_config_pdf_path",
+    "dev": "prez $npm_package_config_source_dir $npm_package_config_build_dir --serve --watch $npm_package_config_pdf_path",
     "watch": "prez $npm_package_config_source_dir $npm_package_config_build_dir --watch",
     "print": "prez $npm_package_config_source_dir $npm_package_config_build_dir --print $npm_package_config_pdf_path"
   },
@@ -31,5 +31,8 @@
   "homepage": "https://github.com/startersacademy/picking-a-topic#readme",
   "devDependencies": {
     "prez": "^4.3.0"
+  },
+  "dependencies": {
+    "reveal-code-focus": "^0.1.0"
   }
 }

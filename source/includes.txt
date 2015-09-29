@@ -1,2 +1,7 @@
 css/custom.css
+
+js/please.js
+js/tagcloud/tagcloud.js
 js/custom.js
+
+
